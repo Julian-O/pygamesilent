@@ -33,12 +33,13 @@ which have the benefit of reducing an external dependency, but this is simpler:
   * `import xxx from pygame` &rarr; `import xxx from pygamesilent`
   
 ## Versions Supported
-This is expected to be cross platform. It has been tested on Windows 10 and Linux.
+This is expected to be cross platform. It has been tested on Windows 10 and
+Linux.
  
 It requires Python >=3.4. This is because it was built with 
 [PyScaffold](https://pypi.org/project/PyScaffold/) and that introduced 
 a syntax dependency. If there is demand for earlier Pythons, this could be
-overcome. 
+overcome. It is tested on Python 3.5, 3.6 and 3.7.
 
 ## Note
 
