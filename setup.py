@@ -24,14 +24,13 @@ setup(
         'Development Status :: 3 - Alpha',
         'Programming Language :: Python',
         'Intended Audience :: Developers',
-        'License:: OSI Approved :: MIT License',
+        'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
-        'Topic :: Software',
-        'Development :: Libraries:: pygame'
+        'Topic :: Software Development :: Libraries :: pygame'
     ],
     keywords='pygame shim',
     packages=find_packages(exclude=['contrib', 'docs', 'tests']),
