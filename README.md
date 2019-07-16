@@ -9,7 +9,7 @@ Unfortunately, in an effort to recuit more developers, the maintainers added
 some output to the library around version 1.9.4, so it now prints text similar
 to this upon import:
 
-> pygame 1.9.6
+> pygame 1.9.6  
 > Hello from the pygame community. https://www.pygame.org/contribute.html
 
 This move has been [confusing](https://stackoverflow.com/questions/51464455)
