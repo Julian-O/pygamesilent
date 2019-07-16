@@ -9,7 +9,7 @@ Unfortunately, in an effort to recuit more developers, the maintainers added
 some output to the library around version 1.9.4, so it now prints text similar
 to this upon import:
 
-> pygame 1.9.6
+> pygame 1.9.6  
 > Hello from the pygame community. https://www.pygame.org/contribute.html
 
 This move has been [confusing](https://stackoverflow.com/questions/51464455)
@@ -36,10 +36,7 @@ which have the benefit of reducing an external dependency, but this is simpler:
 This is expected to be cross platform. It has been tested on Windows 10 and
 Linux.
  
-It requires Python >=3.4. This is because it was built with 
-[PyScaffold](https://pypi.org/project/PyScaffold/) and that introduced 
-a syntax dependency. If there is demand for earlier Pythons, this could be
-overcome. It is tested on Python 3.5, 3.6 and 3.7.
+It is tested on Python 2.7, 3.5, 3.6 and 3.7.
 
 ## Note
 
