@@ -14,12 +14,13 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='pygamesilent',
-    version='0.1.2',
+    version='0.1.3',
     description='Shim around PyGame to hide "Hello" message on import.',
     long_description=long_description,
     url='https://github.com/Julian-O/pygamesilent',
     author='Julian-O',
     author_email='pygamesilent@somethinkodd.com',
+    long_description_content_type="text/markdown",
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Programming Language :: Python',
