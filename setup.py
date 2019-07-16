@@ -14,7 +14,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='pygamesilent',
-    version='0.1.4',
+    version='0.1.3',
     description='Shim around PyGame to hide "Hello" message on import.',
     long_description=long_description,
     url='https://github.com/Julian-O/pygamesilent',
@@ -34,8 +34,7 @@ setup(
         'Topic :: Software Development :: Libraries :: pygame'
     ],
     keywords='pygame shim',
-    packages=['pygamesilent'],
-    package_dir = {'': 'src'},
+    packages=find_packages(exclude=['contrib', 'docs', 'tests']),
     python_requires='>=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, <4',
     install_requires=['pygame'],
 
@@ -62,7 +61,7 @@ setup(
     # maintainers, and where to support the project financially. The key is
     # what's used to render the link text on PyPI.
     project_urls={  # Optional
-        'Source': 'https://github.com/Julian-O/pygamesilent/',
         'PyGame Info': 'https://pygame.org',
+        'Source': 'https://github.com/Julian-O/pygamesilent/',
     },
 )
