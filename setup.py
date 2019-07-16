@@ -14,7 +14,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='pygamesilent',
-    version='0.1.4',
+    version='0.1.5',
     description='Shim around PyGame to hide "Hello" message on import.',
     long_description=long_description,
     url='https://github.com/Julian-O/pygamesilent',
