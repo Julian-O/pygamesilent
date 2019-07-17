@@ -14,7 +14,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='pygamesilent',
-    version='0.1.5',
+    version='1.0.0',
     description='Shim around PyGame to hide "Hello" message on import.',
     long_description=long_description,
     url='https://github.com/Julian-O/pygamesilent',
@@ -22,7 +22,7 @@ setup(
     author_email='pygamesilent@somethinkodd.com',
     long_description_content_type="text/markdown",
     classifiers=[
-        'Development Status :: 3 - Alpha',
+        'Development Status :: 5 - Production/Stable',
         'Programming Language :: Python',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
@@ -31,35 +31,19 @@ setup(
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
-        'Topic :: Software Development :: Libraries :: pygame'
+        'Topic :: Software Development :: Libraries :: pygame',
     ],
     keywords='pygame shim',
     packages=['pygamesilent'],
-    package_dir={'': 'src'},    python_requires='>=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, <4',
+    package_dir={'': 'src'},
+    python_requires='>=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, <4',
     install_requires=['pygame'],
 
-    # List additional groups of dependencies here (e.g. development
-    # dependencies). Users will be able to install these using the "extras"
-    # syntax, for example:
-    #
-    #   $ pip install sampleproject[dev]
-    #
-    # Similar to `install_requires` above, these must be valid existing
-    # projects.
     extras_require={  # Optional
         'dev': ['check-manifest'],
         'test': ['pytest', 'pytest-cov'],
     },
 
-    # List additional URLs that are relevant to your project as a dict.
-    #
-    # This field corresponds to the "Project-URL" metadata fields:
-    # https://packaging.python.org/specifications/core-metadata/#project-url-multiple-use
-    #
-    # Examples listed include a pattern for specifying where the package tracks
-    # issues, where the source is hosted, where to say thanks to the package
-    # maintainers, and where to support the project financially. The key is
-    # what's used to render the link text on PyPI.
     project_urls={  # Optional
         'Source': 'https://github.com/Julian-O/pygamesilent/',
         'PyGame Info': 'https://pygame.org',
